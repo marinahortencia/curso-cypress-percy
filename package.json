@@ -1,0 +1,28 @@
+{
+  "name": "curso-cypress-percy",
+  "version": "1.0.0",
+  "description": "visual regression test with cypress/percy",
+  "main": "index.js",
+  "scripts": {
+    "test": "percy exec -- cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinahortencia/curso-cypress-percy.git"
+  },
+  "keywords": [
+    "cypress",
+    "percy"
+  ],
+  "author": "Marina Hortencia O. da Silva - marina.hortencias@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marinahortencia/curso-cypress-percy/issues"
+  },
+  "homepage": "https://github.com/marinahortencia/curso-cypress-percy#readme",
+  "devDependencies": {
+    "@percy/cli": "^1.0.0-beta.48",
+    "@percy/cypress": "^3.1.0",
+    "cypress": "^7.1.0"
+  }
+}
